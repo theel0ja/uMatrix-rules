@@ -1,0 +1,35 @@
+https-strict: behind-the-scene false
+matrix-off: about-scheme true
+matrix-off: behind-the-scene true
+matrix-off: chrome-extension-scheme true
+matrix-off: chrome-scheme true
+matrix-off: localhost true
+matrix-off: moz-extension-scheme true
+matrix-off: opera-scheme true
+matrix-off: vivaldi-scheme true
+matrix-off: wyciwyg-scheme true
+no-workers: * true
+no-workers: duckduckgo.com false
+no-workers: localhost false
+noscript-spoof: * true
+referrer-spoof: * true
+referrer-spoof: behind-the-scene false
+* * * block
+* * css allow
+* * frame block
+* * image allow
+* * other block
+* 1st-party * allow
+* 1st-party frame allow
+* ajax.cloudflare.com * allow
+* ajax.googleapis.com * allow
+* bootstrapcdn.com * allow
+* cdn.jsdelivr.net * allow
+* cdn.rawgit.com * allow
+* cdn.sstatic.net * allow
+* cdnjs.cloudflare.com * allow
+* code.jquery.com * allow
+* maps.googleapis.com * allow
+* medium.com * allow
+* rawgit.com * allow
+* unpkg.com * allow
