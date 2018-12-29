@@ -15,11 +15,13 @@ noscript-spoof: * true
 referrer-spoof: * true
 referrer-spoof: behind-the-scene false
 * * * block
+* * cookie block
 * * css allow
 * * frame block
 * * image allow
 * * other block
 * 1st-party * allow
+* 1st-party cookie allow
 * 1st-party frame allow
 * ajax.aspnetcdn.com * allow
 * ajax.aspnetcdn.com script allow
@@ -27,6 +29,7 @@ referrer-spoof: behind-the-scene false
 * ajax.googleapis.com * allow
 * ajax.microsoft.com * allow
 * ajax.proxy.ustclug.org * allow
+* api.github.com xhr allow
 * apps.bdimg.com * allow
 * bootstrapcdn.com * allow
 * cdn.bootcss.com * allow
@@ -34,14 +37,27 @@ referrer-spoof: behind-the-scene false
 * cdn.rawgit.com * allow
 * cdn.sstatic.net * allow
 * cdnjs.cloudflare.com * allow
+* cdnjs.cloudflare.com script allow
 * code.jquery.com * allow
+* ghbtns.com frame allow
+* gist.github.com script allow
+* github.githubassets.com css allow
 * lib.sinaapp.com * allow
 * libs.baidu.com * allow
 * maps.googleapis.com * allow
 * medium.com * allow
+* netdna-ssl.com * allow
 * rawgit.com * allow
+* s.ytimg.com script allow
 * sdn.geekzu.org * allow
+* squarespace.com * allow
+* stackexchange.com * allow
 * unpkg.com * allow
 * upcdn.b0.upaiyun.com * allow
+* use.fontawesome.com * allow
+* use.typekit.net * allow
+* wikimedia.org * allow
+* wp.com script allow
+* www.youtube.com script allow
 * yandex.st * allow
 * yastatic.net * allow
